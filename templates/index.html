@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"/>
+    <script type="text/javascript" src="{{url_for('static', filename='bg.js')}}"></script>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+
+  <div class="left">
+    <div class="form_title">
+      <form  method= "POST" action = "/"> 
+            <input class="search" placeholder="Enter Movie Name Here!" type="text" name = "movie" id="input" enctype="multipart/form-data"/>  <br>
+            <input class="button" type="submit" name="submit_form" enctype="multipart/form-data">
+      </form>
+          </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="right">
+    <div class="info_content">
+      <h1>
+          Welcome to Movie/Show Analyzer!
+      </h1>
+      <text>
+        If you are one of the "Frankly, my dear, I don't give a damn." then "May the Force be with you."<br>
+        If not then? "I'm going to make you an offer you can't refuse." <br><br>
+
+        Are you fed up of wasting your time on movies and shows that are not worth it? <br><br>
+
+        Type in your movie name, set up your netflix and let us decide if you should watch it or not! <br>
+      </text>
+
+      <h1>
+        How does it work?
+      </h1>
+
+      <text>
+        It scrapes the data for the movie/show from IMDb, analyzes it and gives you well drafted plots, showing you the whole journey of the movie/show.<br><br>
+
+        It also shows you how many people recommend watching it using the weighted average of the reviews given by IMDb users.
+        <br><br>
+      </text>
+      <h2>
+        Happy Watching!
+      </h2>
+
+
+    </div>
+  </div>
+
+</body>
+</html>

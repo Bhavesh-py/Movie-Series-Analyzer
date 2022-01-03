@@ -1,0 +1,72 @@
+body {
+  background: url("images/image (11).jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.left{
+  float: left;
+  width: 70%;
+}
+
+.search {
+  color:#fff;
+  width: 350px;
+  height: 40px;
+  margin: 50px 50px 10px 50px;
+  background: #444;
+  background: rgba(0,0,0,.2);
+  border-radius:  3px;
+  border: 1px solid #fff;
+
+}
+.search:focus{
+  border-radius:  3px;
+  border: 3px solid #fff;
+}
+   
+
+.button {
+margin-left: 160px;
+font-weight: bold;
+cursor: pointer;
+height: 40px;
+width: 120px;
+color: rgb(235, 223, 231);
+background: transparent;
+border-radius: 3px 3px 3px 0;
+}
+.button:hover {
+    background: #fff;
+    color:#444;
+}
+.button:focus {
+    outline: 0;
+}
+
+
+.outer{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.right{
+  margin-top: 10px;
+  float: right;
+  width: 30%;
+  color: rgb(164, 143, 143);
+  font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+  color: rgb(230, 230, 221);
+
+}
+
+h1{
+  font-size: 20;
+}
+
+
+h2{
+  font-size: 40;
+  text-align: center;
+}
+
